@@ -129,7 +129,6 @@ describe("uncovered branches", () => {
       expect(mockLTrim).toHaveBeenCalledWith("l", -2, -1);
     } catch (e) {
       // Print actual calls for debugging
-      // eslint-disable-next-line no-console
       console.error("lTrim calls:", mockLTrim.mock.calls);
       throw e;
     }

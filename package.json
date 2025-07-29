@@ -2,6 +2,15 @@
   "name": "typesafe-redis",
   "module": "src/index.ts",
   "type": "module",
+  "author": {
+    "name": "Fenryx"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bun run ./build.ts",
+    "test": "bun test"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -9,6 +18,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "@redis/client": "^5.6.1"
+    "@redis/client": "^5.6.1",
+    "bun-plugin-dts": "^0.3.0"
   }
 }
