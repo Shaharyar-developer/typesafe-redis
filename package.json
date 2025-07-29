@@ -1,0 +1,14 @@
+{
+  "name": "typesafe-redis",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@redis/client": "^5.6.1"
+  }
+}
