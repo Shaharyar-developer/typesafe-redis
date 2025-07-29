@@ -7,7 +7,7 @@
     "url": "https://github.com/Shaharyar-developer/typesafe-redis"
   },
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "build": "rm -rf ./dist/index.js && rm -rf ./dist/index.d.ts && bun run ./build.ts && cp ./README.md ./dist/README.md && cp ./package.json ./dist/package.json",
     "test": "bun test"
